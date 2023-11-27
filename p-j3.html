@@ -10,30 +10,32 @@
 <body id="body">
 
     <p id="p1">
-        this is test
+        register
     </p>
 
     <p id="p2">
-        this is test
+        name of book
     </p>
-    <!-- <p id="p1">
-        this is test
-    </p>
-    <p id="p1">
-        this is test
-    </p>
-    <p id="p1">
-        this is test
-    </p>
-    <p id="p1">
-        this is test
-    </p> -->
+
 
     <script>
-        // // var day = today.getDay();
-        // var today = new Date(year, month, date[, hour, minute, second, millisecond]);
-        // // var hour = today.getHours();
-        // console.log(today);
+
+        var GestaitionalAge = Number(prompt('لطفا سن بارداری خود را وارد کنید : '));
+        if (GestaitionalAge <= 13) {
+            console.log('شما در سه ماهه اول باداری هستید');
+        }
+        else if (GestaitionalAge > 13 || GestaationalAge <= 27) {
+            console.log('شما در سه ماهه دوم بارداری هستید');
+        }
+        else if (GestaationalAge > 27 || GestaationalAge <= 40) {
+            console.log('شما در سه ماهه سوم بارداری هستید');
+        }
+        else {
+            console.log('سن بارداری را به هفته وارد کنید');
+        }
+
+        // ****************************
+
 
         var age = 15;
         if (age >= 18) {
@@ -106,25 +108,23 @@
 
 
 
-        var MyUserName = prompt('لطفا نام کاربری خود را وارد کنید: ');
-        var MyPassword = prompt('لطفا رمز عبور خود را وارد کنید: ');
-        // console.log(MyUserName == 'mansoureh' && MyPassword == 's123');
-        var MyUserName = 'mansoureh'
-        var MyPassword = 's123'
-        if (MyUserName == 'mansoureh' && MyPassword != 's123') {
-            console.log('نام کاربری درسته ولی رمز اشتباهه');
-        }
-        else if (MyUserName != 'mansoureh' && MyPassword == 's123') {
-            console.log('نام کاربری اشتباه می باشد ولی رمز صحیح می باشد');
-        }
-        else if (MyUserName == 'mansoureh' && MyPassword == 's123') {
-            console.log('تبریک، نام کاربری و رمز صحیح می باشد');
-        }
-        else {
-            console.log('نام کاربری و رمز اشتباه می باشد');
-        }
-
-
+        // var MyUserName = prompt('لطفا نام کاربری خود را وارد کنید: ');
+        // var MyPassword = prompt('لطفا رمز عبور خود را وارد کنید: ');
+        // // console.log(MyUserName == 'mansoureh' && MyPassword == 's123');
+        // var MyUserName = 'mansoureh'
+        // var MyPassword = 's123'
+        // if (MyUserName == 'mansoureh' && MyPassword != 's123') {
+        //     console.log('نام کاربری درسته ولی رمز اشتباهه');
+        // }
+        // else if (MyUserName != 'mansoureh' && MyPassword == 's123') {
+        //     console.log('نام کاربری اشتباه می باشد ولی رمز صحیح می باشد');
+        // }
+        // else if (MyUserName == 'mansoureh' && MyPassword == 's123') {
+        //     console.log('تبریک، نام کاربری و رمز صحیح می باشد');
+        // }
+        // else {
+        //     console.log('نام کاربری و رمز اشتباه می باشد');
+        // }
 
 
     </script>
