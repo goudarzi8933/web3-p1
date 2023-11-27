@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="body">
+
+    <p id="p1">
+        this is test
+    </p>
+
+    <p id="p2">
+        this is test
+    </p>
+    <!-- <p id="p1">
+        this is test
+    </p>
+    <p id="p1">
+        this is test
+    </p>
+    <p id="p1">
+        this is test
+    </p>
+    <p id="p1">
+        this is test
+    </p> -->
+
+    <script>
+        // // var day = today.getDay();
+        // var today = new Date(year, month, date[, hour, minute, second, millisecond]);
+        // // var hour = today.getHours();
+        // console.log(today);
+
+        var age = 15;
+        if (age >= 18) {
+            document.getElementById('p1').innerText = ('Allowed to register');
+        } else {
+            document.getElementById('p1').innerText = ('Not allowed to register');
+        }
+        console.log(age);
+
+        // ****************************
+
+        // var book = prompt('Please enter the name of book: ');
+        // if (book == 'history') {
+        //     document.getElementById('p2').innerText = ('history book');
+        // }
+        // else if (book == 'maths') {
+        //     document.getElementById('p2').innerText = ('maths book');
+        // }
+        // else {
+        //     document.getElementById('p2').innerText = ('Unknown Book');
+
+        // }
+        // console.log(book);
+
+        // ****************************
+
+
+        // var Gta = Number(prompt('بازی GTA در چه  سالی منتشر شد ؟ '));
+        // if (Gta <= 2013) {
+        //     console.log('correct');
+        // } else {
+        //     console.log('wrong');
+        // }
+        // ****************************
+
+        // var accessAllowed;
+        // var age = prompt('سن خود را وارد کنید', '');
+
+        // if (age >= 18) {
+        //     accessAllowed = 'مجاز';
+        // } else {
+        //     accessAllowed = 'غیر مجاز';
+        // }
+        // alert(accessAllowed);
+
+        // var accessAllowed = (age >= 18) ? 'مجاز' : 'غیر مجاز';
+
+        // ****************************
+
+
+        var pet = 'سگ';
+
+        switch (pet) {
+            case 'اردک':
+                console.log('من یک اردک دارم');
+                break;
+            case 'سگ':
+                console.log('من یک سگ دارم');
+                break;
+            case 'گربه':
+                console.log('من یک گربه دارم');
+                break;
+            case 'طوطی':
+                console.log('من یک طوطی دارم');
+                break;
+            default:
+                console.log('من حیوان خانگی ندارم');
+                break;
+        }
+
+
+
+        var MyUserName = prompt('لطفا نام کاربری خود را وارد کنید: ');
+        var MyPassword = prompt('لطفا رمز عبور خود را وارد کنید: ');
+        // console.log(MyUserName == 'mansoureh' && MyPassword == 's123');
+        var MyUserName = 'mansoureh'
+        var MyPassword = 's123'
+        if (MyUserName == 'mansoureh' && MyPassword != 's123') {
+            console.log('نام کاربری درسته ولی رمز اشتباهه');
+        }
+        else if (MyUserName != 'mansoureh' && MyPassword == 's123') {
+            console.log('نام کاربری اشتباه می باشد ولی رمز صحیح می باشد');
+        }
+        else if (MyUserName == 'mansoureh' && MyPassword == 's123') {
+            console.log('تبریک، نام کاربری و رمز صحیح می باشد');
+        }
+        else {
+            console.log('نام کاربری و رمز اشتباه می باشد');
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
